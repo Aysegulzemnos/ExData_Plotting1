@@ -1,3 +1,12 @@
+
+
+##Time series plot of energy usage across various sections of the house.
+
+##Sub_metering_1 corresponds to the kitchen, containing of mainly a dishwasher, an oven and a microwave (hot plates are not electric but gas powered).
+##Sub_metering_2 corresponds to the laundry room, containing a washing-machine, a tumble-drier, a refrigerator and a light. 
+##Sub_metering_3 corresponds to an electric water-heater and an air-conditioner.
+##All measurements reflect watt-hour of active energy.
+
 source("load_data.R")
 
 plot3 <- function(data=NULL) {
