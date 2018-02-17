@@ -1,4 +1,6 @@
 
+##Time series plot of global minute-averaged active power (in kilowatt)
+
 source("load_data.R")
 
 plot2 <- function(data=NULL) {
