@@ -1,3 +1,5 @@
+##Histogram of household global minute-averaged active power (in kilowatt)
+
 source("load_data.R")
 
 plot1 <- function(data=NULL) {
